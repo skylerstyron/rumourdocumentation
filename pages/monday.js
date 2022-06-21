@@ -16,11 +16,11 @@ export default function Monday() {
                 <a className={styles.backtohome}><code className={styles.code}>back to home</code></a>
             </Link>
             <main className={styles.main}>
-                <div className={styles.wrapper}>
-                    <h1 className={styles.title}>
-                        Monday.com
-                    </h1>
+                <h1 className={styles.title}>
+                    Monday.com
+                </h1>
 
+                <div className={styles.wrapper}>
                     <div className={styles.description}>
                         <h2 className={styles.sectionHead}>Navigation</h2>
                     </div>

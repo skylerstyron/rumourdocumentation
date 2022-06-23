@@ -36,7 +36,7 @@ export default function Home() {
             </a>
           </Link>
 
-          <Link href="/">
+          <Link href="/clients">
             <a className={styles.card}>
               <h2>Our Clients &rarr;</h2>
               <p>Learn about the clients we work with and thier brand image.</p>

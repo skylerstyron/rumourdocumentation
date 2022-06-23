@@ -16,3 +16,19 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.header {
+  margin: 2rem;
+}
+
+.backtohome {
+  position: fixed;
+  margin-top: 50px;
+}
+
+@media (max-width: 700px) {
+	.backtohome {
+    position: fixed;
+		margin-left: -50px;
+	}
+}

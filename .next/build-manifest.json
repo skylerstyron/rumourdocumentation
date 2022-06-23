@@ -34,6 +34,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/monday.js"
+    ],
+    "/quicklinks": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/quicklinks.js"
     ]
   },
   "ampFirstPages": []

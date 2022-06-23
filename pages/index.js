@@ -18,11 +18,17 @@ export default function Home() {
           <a href="https://rumourmedia.com">RUM<span className={styles.logoIcon}><Image src="/icon.png" alt="Vercel Logo" width={70} height={70} /></span>UR MEDIA</a>
         </h1>
 
-        <p className={styles.description}>
-          {/* Get started by editing{' '}<code className={styles.code}>pages/index.js</code> */}
-        </p>
+        <div className={styles.spacer}></div>
 
         <div className={styles.grid}>
+        <Link href="/quicklinks">
+            <a className={styles.card}>
+              <h2>Quick Links &rarr;</h2>
+              <p>
+                Getting set up. Email login, Monday.com, Slack.
+              </p>
+            </a>
+          </Link>
           <Link href="/monday">
             <a className={styles.card}>
               <h2>Project Management  &rarr;</h2>
@@ -44,14 +50,6 @@ export default function Home() {
             </a>
           </Link>
 
-          <Link href="/">
-            <a className={styles.card}>
-              <h2>?</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </p>
-            </a>
-          </Link>
         </div>
       </main>
 

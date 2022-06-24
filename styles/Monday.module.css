@@ -1,3 +1,19 @@
+/* :root {
+	--completed: #30ce7e;
+	--needApproval: #844b8f;
+	--workingonit: #fbb051;
+	--paused: #fd6e46;
+	--stuck: #e0506b;
+	--inProgress: #144851;
+	--onHold: #215ede;
+	--videoShootScheduled: #fd7a7f;
+	--waitingonMike: #f7a0f1;
+	--projectCanceled: #432f2f;
+	--notStarted: #666a80;
+	--needsWork: #bb4562;
+	--test: #ffffff;
+} */
+
 .container {
 	padding: 0 2rem;
 }
@@ -19,27 +35,6 @@
 .sectionHead {
 	text-align: left;
 	font-size: 2rem;
-}
-
-.footer {
-	display: flex;
-	flex: 1;
-	padding: 2rem 0;
-	border-top: 1px solid #eaeaea;
-	justify-content: center;
-	align-items: center;
-}
-
-.footer a {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-grow: 1;
-}
-
-.title a {
-	color: #fafafa;
-	text-decoration: none;
 }
 
 .title {
@@ -111,6 +106,48 @@
 	line-height: 1.5;
 }
 
+.parent {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 1fr;
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+	border: #fff solid .5px;
+}
+
+.div1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	grid-area: 1 / 1 / 2 / 2;
+	border: #fff solid .5px;
+}
+.div2 {
+	grid-area: 1 / 2 / 2 / 3;
+	border: #fff solid .5px;
+}
+.div3 {
+	grid-area: 1 / 3 / 2 / 4;
+	border: #fff solid .5px;
+}
+
+.status {
+	text-align: center;
+	width: 200px;
+	height: 50px;
+	border-radius: 5px;
+}
+
+.statusName {
+	text-align: center;
+}
+
+.statusdescription {
+	margin: 2rem 2rem;
+	line-height: 1.5;
+	font-size: 1rem;
+}
+
 .logo {
 	height: 1em;
 	margin-left: 0.5rem;
@@ -118,11 +155,6 @@
 
 .spacer {
 	margin: 4em 0;
-}
-
-.backtohome {
-	position: relative;
-	top: 50px;
 }
 
 @media (max-width: 1400px) {

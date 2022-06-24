@@ -2,6 +2,9 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
+import Spacer from './comps/spacer'
+import Footer from './comps/footer'
+
 
 export default function Home() {
   return (
@@ -18,10 +21,10 @@ export default function Home() {
           <a href="https://rumourmedia.com">RUM<span className={styles.logoIcon}><Image src="/icon.png" alt="Vercel Logo" width={70} height={70} /></span>UR MEDIA</a>
         </h1>
 
-        <div className={styles.spacer}></div>
+        <Spacer />
 
         <div className={styles.grid}>
-        <Link href="/quicklinks">
+          <Link href="/quicklinks">
             <a className={styles.card}>
               <h2>Quick Links &rarr;</h2>
               <p>
@@ -43,7 +46,7 @@ export default function Home() {
             </a>
           </Link>
 
-          <Link href="/">
+          <Link href="/team">
             <a className={styles.card}>
               <h2>Our Team &rarr; </h2>
               <p>Get to know our team and who does what.</p>
@@ -53,12 +56,7 @@ export default function Home() {
         </div>
       </main>
 
-      <footer className={styles.footer}>
-        <p>
-          Powered by {' '}
-          <code className={styles.code}>brain wrinkles</code>
-        </p>
-      </footer>
+      <Footer />
     </div>
   )
 }

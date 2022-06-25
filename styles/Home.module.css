@@ -24,14 +24,9 @@
 	font-size: 4rem;
 }
 
-.code {
-	background: #fafafa;
-	color: #333;
-	border-radius: 5px;
-	padding: 0.75rem;
-	font-size: 1.1rem;
-	font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-		Bitstream Vera Sans Mono, Courier New, monospace;
+.logoIcon {
+	position: relative;
+	top: 10px;
 }
 
 .grid {
@@ -70,15 +65,6 @@
 	margin: 0;
 	font-size: 1.25rem;
 	line-height: 1.5;
-}
-
-.logoIcon {
-	position: relative;
-	top: 10px;
-}
-
-.spacer {
-	margin: 4rem 0;
 }
 
 @media (max-width: 600px) {

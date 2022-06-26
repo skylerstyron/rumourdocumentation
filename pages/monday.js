@@ -74,16 +74,16 @@ export default function Monday() {
                 An Item is an individual row (or line item) in a group that
                 represent projects. Each Item is divided into columns:
               </p>
-              <ul>
-                <li>Files</li>
-                <li>Project Manager</li>
-                <li>Involved</li>
-                <li>Status</li>
-                <li>Due Date</li>
-                <li>Time Tracking</li>
-                <li>Time Tracking(Subitems)</li>
-                <li>Completed Date</li>
-                <li>Category</li>
+              <ul className={styles.itemslist}>
+                <li className={styles.items}>Files</li>
+                <li className={styles.items}>Project Manager</li>
+                <li className={styles.items}>Involved</li>
+                <li className={styles.items}>Status</li>
+                <li className={styles.items}>Due Date</li>
+                <li className={styles.items}>Time Tracking</li>
+                <li className={styles.items}>Time Tracking(Subitems)</li>
+                <li className={styles.items}>Completed Date</li>
+                <li className={styles.items}>Category</li>
               </ul>
               <hr />
             </div>

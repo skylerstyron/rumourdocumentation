@@ -2,7 +2,7 @@
 
 Located in Coppell, Texas and founded in 1977 Classic Auto Air is an air conditioning manufacture that retrofit air conditioning systems for classic and vintage vehicles. Their model specific a/c systems / a/c kits are bolt in meaning there little to zero modifications to the vehicle to have modern day a/c system. 
 
-They have a/c kits for Ford, GM, Mopar and some European models. They have released what is called the Smart Series. Model-Specific Fully Electronic Smart Series™ kits allow the customer to Retrofit an original classic Ford, GM, Mopar to full air-conditioning, easily and professionally on their own.
+They have a/c kits for Ford, GM, Mopar, and some European models. They have released what is called the Smart Series. Model-Specific Fully Electronic Smart Series™ kits allow the customer to Retrofit an original classic Ford, GM, Mopar to full air-conditioning, easily and professionally on their own.
 
 Classic Auto Air customers are those that want to have a/c in their vehicle easily and quickly. These customers want their vehicle to have a stock look and feel with modern comforts in a/c. 
 
@@ -29,7 +29,6 @@ The Driveshaft Shop is a full CNC machine shop and manufacturing facility locate
 
 Located in Florida and founded in 1977 Original Air is a full-service classic car air conditioning company. Original Air restores classic air conditioning systems with the same expertise and passion as always, they also offer parts and compressor and condenser conversion kits.
 
-
 Original Air restores a/c systems to their original glory. They are artist in their abilities to do so. Taking a once unusable system to a fully functional and high performing system. Original Air offers America’s most extensive in-house restoration and duplicating department, repairing, and restoring air conditioning parts and systems.
 
 Original Air customer are those that want to keep everything original in their classic /vintage vehicle.
@@ -39,7 +38,7 @@ Original Air customer are those that want to keep everything original in their c
 
 Located in North Carolina and founded in 1983, Master Power Brakes is the leader in model specific brake kits for classic cars.
 
-What sets Master Power Brakes apart is their focus on model specific kits.  Each of their kits are engineered for specific models and designed to be as "bolt-on" and easy to install.
+What sets Master Power Brakes apart is their focus on model specific kits. Each of their kits are engineered for specific models and designed to be as "bolt-on" and easy to install.
 
 Master Power Brakes work with a variety of businesses, including race car, street rod, antique, classic, and muscle car markets.  
 

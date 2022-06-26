@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300&display=swap');
+
 .container {
 	padding: 0 2rem;
 }
@@ -18,10 +20,16 @@
 }
 
 .title {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 200;
 	text-align: center;
 	margin: 10px;
 	line-height: 1.15;
 	font-size: 4rem;
+}
+
+.titlebold {
+	font-weight: 300;
 }
 
 .logoIcon {

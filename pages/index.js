@@ -18,7 +18,7 @@ export default function Home() {
       <main className={styles.main}>
         <h2>Welcome to</h2>
         <h1 className={styles.title}>
-          <a href="https://rumourmedia.com">RUM<span className={styles.logoIcon}><Image src="/icon.png" alt="Vercel Logo" width={70} height={70} /></span>UR MEDIA</a>
+          <a href="https://rumourmedia.com">RUM<span className={styles.logoIcon}><Image src="/icon.png" alt="Vercel Logo" width={70} height={70} /></span>UR <span className={styles.titlebold}>MEDIA</span></a>
         </h1>
 
         <Spacer />

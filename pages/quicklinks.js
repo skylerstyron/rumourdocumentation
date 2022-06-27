@@ -31,7 +31,7 @@ export default function QuickLinks() {
           <div className={styles.wrapper}>
             <div className={styles.grid}>
               <Card name="Email Login" url="https://sso.godaddy.com/?app=o365&realm=pass&marketid=en-US" />
-              <Card name="Slack" url="https://rumourmedia.slack.com/?redir=%2Fssb%2Fredirect%3Fentry_point%3Dsignin" />
+              <Card name="Slack" url="https://rumour-media.slack.com/" />
               <Card name="Monday.com" url="https://rumourmedia.monday.com/auth/login_monday/email_password" />
               <Card name="Monday.com Desktop App" url="https://apps.apple.com/us/app/monday-com/id1298450641?mt=12" />
             </div>

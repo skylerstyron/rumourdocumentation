@@ -75,6 +75,7 @@ export default function Monday() {
                 represent projects. Each Item is divided into columns:
               </p>
               <ul className={styles.itemslist}>
+                <li className={styles.items}>Last Update</li>
                 <li className={styles.items}>Files</li>
                 <li className={styles.items}>Project Manager</li>
                 <li className={styles.items}>Involved</li>
